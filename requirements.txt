@@ -2,4 +2,5 @@ funasr
 zhconv
 modelscope
 librosa
-
+torch
+torchaudio

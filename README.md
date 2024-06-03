@@ -4,7 +4,6 @@ To evaluate the zero-shot speech generation ability of our model, we propose an 
 ## Requirements
 To install all dependencies, run 
 ```
-pip3 install torch torchaudio
 pip3 install -r requirements.txt
 ```
 

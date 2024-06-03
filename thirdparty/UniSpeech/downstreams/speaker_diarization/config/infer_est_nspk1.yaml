@@ -1,0 +1,31 @@
+# Copyright (c) 2021 Nippon Telegraph and Telephone corporation (NTT).
+# All rights reserved
+
+# inference options
+est_nspk: 1
+sil_spk_th: 0.05
+ahc_dis_th: 1.0
+clink_dis: 1.0e+4
+model:
+  n_speakers: 3
+  all_n_speakers: 0
+  feat_dim: 1024
+  n_units: 256
+  n_heads: 8
+  n_layers: 6
+  dropout_rate: 0.1
+  spk_emb_dim: 256
+  sr: 8000
+  frame_shift: 320
+  frame_size: 200
+  context_size: 0
+  subsampling: 1
+  feat_type: "config/unispeech_sat.th"
+  feature_selection: "hidden_states"
+  interpolate_mode: "linear"
+dataset:
+  chunk_size: 750
+  frame_shift: 320
+  sampling_rate: 8000
+  subsampling: 1
+  num_speakers: 3

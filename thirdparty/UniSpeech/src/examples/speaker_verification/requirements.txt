@@ -1,0 +1,6 @@
+scipy
+fire
+sklearn
+s3prl
+torchaudio==0.9.0
+sentencepiece

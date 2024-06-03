@@ -1,0 +1,5 @@
+funasr
+zhconv
+modelscope
+librosa
+

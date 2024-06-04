@@ -1,5 +1,5 @@
 # seed-tts-eval
-To evaluate the zero-shot speech generation ability of our model, we propose an out-of-domain objective test set. The objective set consists of samples extracted from English (EN) and Mandarin (ZH) public corpora that are used to measure the model's performance on various objective metrics. Specifically, we employ 1,000 samples from the [Common Voice](https://commonvoice.mozilla.org/en) dataset and 2,000 samples from the [DiDiSpeech-2](https://arxiv.org/pdf/2010.09275) dataset. 
+To evaluate the zero-shot speech generation ability of our model, we propose an out-of-domain objective evaluation test set. This test set consists of samples extracted from English (EN) and Mandarin (ZH) public corpora that are used to measure the model's performance on various objective metrics. Specifically, we employ 1,000 samples from the [Common Voice](https://commonvoice.mozilla.org/en) dataset and 2,000 samples from the [DiDiSpeech-2](https://arxiv.org/pdf/2010.09275) dataset. 
 
 ## Requirements
 To install all dependencies, run 
@@ -18,7 +18,6 @@ The test set is mainly organized using the method of meta file. The meaning of e
 * Zero-shot text-to-speech (TTS):
   * EN: seed-tts-eval/en/meta.lst
   * ZH: seed-tts-eval/zh/meta.lst
-  * EN (hard case): seed-tts-eval/en/hardcase.lst
   * ZH (hard case): seed-tts-eval/zh/hardcase.lst
 * Zero-shot voice conversion (VC):
   * EN: seed-tts-eval/en/non_para_reconstruct_meta.lst

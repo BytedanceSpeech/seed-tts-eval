@@ -1,4 +1,6 @@
 # seed-tts-eval
+:boom: This repository contains the test set of speech generation proposed in our work [seed-TTS](https://arxiv.org/abs/2406.02430), as well as the scripts for metrics calculation. For security reasons, the source code and model weights of Seed-TTS will not be released. Welcome to try the speech generation feature in the products of ByteDance. :boom:
+
 To evaluate the zero-shot speech generation ability of our model, we propose an out-of-domain objective evaluation test set. This test set consists of samples extracted from English (EN) and Mandarin (ZH) public corpora that are used to measure the model's performance on various objective metrics. Specifically, we employ 1,000 samples from the [Common Voice](https://commonvoice.mozilla.org/en) dataset and 2,000 samples from the [DiDiSpeech-2](https://arxiv.org/pdf/2010.09275) dataset. 
 
 ## Requirements

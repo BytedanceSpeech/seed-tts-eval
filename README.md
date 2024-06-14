@@ -18,12 +18,12 @@ The word error rate (WER) and speaker similarity (SIM) metrics are adopted for o
 You can download the test set for all tasks from [this link](https://drive.google.com/file/d/1GlSjVfSHkW3-leKKBlfrjuuTGqQ_xaLP/edit). 
 The test set is mainly organized using the method of meta file. The meaning of each line in the meta file: filename | the text of the prompt | the audio of the prompt | the text to be synthesized | the ground truth counterpart corresponding to the text to be synthesized （if exists）. For different tasks, we adopt different meta files:
 * Zero-shot text-to-speech (TTS):
-  * EN: seed-tts-eval/en/meta.lst
-  * ZH: seed-tts-eval/zh/meta.lst
-  * ZH (hard case): seed-tts-eval/zh/hardcase.lst
+  * EN: en/meta.lst
+  * ZH: zh/meta.lst
+  * ZH (hard case): zh/hardcase.lst
 * Zero-shot voice conversion (VC):
-  * EN: seed-tts-eval/en/non_para_reconstruct_meta.lst
-  * ZH: seed-tts-eval/zh/non_para_reconstruct_meta.lst
+  * EN: en/non_para_reconstruct_meta.lst
+  * ZH: zh/non_para_reconstruct_meta.lst
 
 ## Code
 We also release the evaluation code for both metrics:

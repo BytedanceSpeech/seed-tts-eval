@@ -1,3 +1,4 @@
+jiwer
 funasr
 zhconv
 modelscope
